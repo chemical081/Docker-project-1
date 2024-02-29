@@ -1,26 +1,70 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Kadwa", serif;
 }
 
 .background-pic {
-    height: 1080px;
-    width: 1920px;
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0; /* Adjust as needed */
 }
 
+/* Desktop-navi-bar */
 .nischal-logo{
-    position: absolute;
-    top: 20px;
-    left: 50px;
+    position:relative;
+    top: 40px;
+    left: 80px;
     height: 65px;
     width: 70px;
+    filter: invert(100%);
 }
 
-.nav-menu{
-    font-family: "Kadwa", serif;
-    position:absolute;
+ul {
+    list-style-type: none;
+}
+
+
+#nav-desktop-menu, 
+.nav-menu {
     display: flex;
     flex-direction: row-reverse;
-    
+    font-size:larger;
+    gap: 80px;    
+    filter: invert(100%);
+    position: relative;
+    right: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li {
+    color: white;
+}
+
+
+
+/* PHOTO AND THE CENTER ITEMS  */
+.profile-pic {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    border-radius: 50%;
+    left: 300px;
+    top: 150px;
+}
+
+.bio {
+    position: relative;
+    display: inline-flex;
+    z-index: 1;
+    color: white;
+    flex-direction: column;
+    left: 550px;
+    bottom: 50px;
 }
