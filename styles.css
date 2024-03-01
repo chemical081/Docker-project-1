@@ -4,17 +4,17 @@
     font-family: "Kadwa", serif;
 }
 
-.background-pic {
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 0; /* Adjust as needed */
+body {
+    background-image: url("images/sea-2755901_1920.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
 }
+
 
 /* Desktop-navi-bar */
 .nischal-logo{
     position:relative;
-    top: 40px;
+    top: 50px;
     left: 80px;
     height: 65px;
     width: 70px;
