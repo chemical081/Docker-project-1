@@ -10,6 +10,10 @@ body {
     background-repeat: no-repeat;
 }
 
+#first-page {
+    height: 100vh;
+}
+
 
 /* Desktop-navi-bar */
 .nischal-logo{
@@ -67,4 +71,30 @@ a {
     flex-direction: column;
     left: 550px;
     bottom: 50px;
+}
+
+
+/* skills-section */
+#second-page{
+    height: 50vh;
+}
+
+.skills {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.skills-bio {
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+
+#education {
+    text-align: center;
+    height: 50vh;
+}
+
+.education-points {
+    text-align: center;
 }
